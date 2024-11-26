@@ -1,6 +1,9 @@
 name: Hello World
 
 on: push
+permissions:
+  contents: read 
+  packages: write
 
 jobs:
   build:
